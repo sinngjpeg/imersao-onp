@@ -1,0 +1,7 @@
+.quadradro--azul {
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    border: 6px solid red;
+    border-radius: 50%;
+}
