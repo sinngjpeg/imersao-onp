@@ -1,30 +1,31 @@
-# 🌟 Frontend Development Exercises Repository
+# 🌟 Repositório de Exercícios de Desenvolvimento Frontend
 
-Welcome to the **Frontend Development Exercises Repository**! 🎨💻 This repository was created to store and organize all my learning exercises related to frontend development using **HTML**, **CSS**, and **JavaScript**. 🚀
+Bem-vindo ao **Repositório de Exercícios de Desenvolvimento Frontend**! 🎨💻<br>
+Este repositório foi criado para armazenar e organizar todos os meus exercícios de aprendizado relacionados ao desenvolvimento frontend utilizando **HTML**, **CSS** e **JavaScript**. 🚀
 
-## 🎯 Purpose
+## 🎯 Propósito
 
-The main goals of this repository are:
+Os principais objetivos deste repositório são:
 
-- 📝 **Practice:** Improve my skills in building user interfaces and web applications.
-- 🎓 **Learn:** Explore key concepts of frontend development, from basic to advanced.
-- 📂 **Organize:** Keep track of all exercises and projects for future reference.
-- 🌱 **Grow:** Continuously improve through hands-on coding and experimentation.
+- 📝 **Praticar:** Melhorar minhas habilidades na construção de interfaces e aplicações web.
+- 🎓 **Aprender:** Explorar os conceitos-chave do desenvolvimento frontend, do básico ao avançado.
+- 📂 **Organizar:** Manter um registro de todos os exercícios e projetos para referência futura.
+- 🌱 **Crescer:** Melhorar continuamente por meio de codificação prática e experimentação.
 
-## 📂 Repository Contents
+## 📂 Conteúdo do Repositório
 
-Here’s what you’ll find in this repository:
+Aqui está o que você encontrará neste repositório:
 
-- 🖋️ **HTML Exercises:** Practicing the structure of web pages, semantic elements, forms, tables, and more.
-- 🎨 **CSS Exercises:** Styling with layouts, animations, transitions, flexbox, grid, and responsive design.
-- ⚙️ **JavaScript Exercises:** Adding interactivity with DOM manipulation, events, functions, and APIs.
-- 🌐 **Mini Projects:** Small projects combining HTML, CSS, and JavaScript to solve real-world problems.
+- 🖋️ **Exercícios de HTML:** Prática com a estrutura de páginas web, elementos semânticos, formulários, tabelas e mais.
+- 🎨 **Exercícios de CSS:** Estilização com layouts, animações, transições, flexbox, grid e design responsivo.
+- ⚙️ **Exercícios de JavaScript:** Adicionando interatividade com manipulação do DOM, eventos, funções e APIs.
+- 🌐 **Mini Projetos:** Pequenos projetos combinando HTML, CSS e JavaScript para resolver problemas do mundo real.
 
-## 🚀 Topics Covered
+## 🚀 Tópicos Abordados
 
-This repository will include exercises on:
+Este repositório incluirá exercícios sobre:
 
-- 🏗️ **HTML Basics:** Tags, attributes, forms, and semantic elements.
-- 🎨 **CSS Styling:** Selectors, box model, positioning, flexbox, grid layout, and media queries.
-- 💡 **JavaScript Fundamentals:** Variables, loops, functions, events, DOM manipulation.
-- 🔗 **Integration:** Combining HTML, CSS, and JavaScript to create interactive web pages.
+- 🏗️ **Fundamentos de HTML:** Tags, atributos, formulários e elementos semânticos.
+- 🎨 **Estilização com CSS:** Seletores, modelo de caixa (box model), posicionamento, flexbox, grid layout e media queries.
+- 💡 **Fundamentos de JavaScript:** Variáveis, loops, funções, eventos e manipulação do DOM.
+- 🔗 **Integração:** Combinando HTML, CSS e JavaScript para criar páginas web interativas.
