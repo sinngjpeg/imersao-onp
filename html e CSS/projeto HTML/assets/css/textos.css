@@ -1,0 +1,11 @@
+p {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    line-height: 35px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+}
