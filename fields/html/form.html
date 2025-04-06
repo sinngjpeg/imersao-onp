@@ -9,25 +9,25 @@
 <body>
     <h1>Formulário</h1>
 
-    <form action="/cadastro" method="GET">
-        <label for="sexo">Data:</label><br>
+    <form action="/cadastro" enctype="multipart/form-data" method="GET">
+        <label for="data">Data:</label><br>
         <input type="date" name="data" /><br><br>
 
-        <label for="sexo">Time:</label><br>
+        <label for="time">Time:</label><br>
         <input type="time" name="hora" /><br><br>
         <input type="datetime-local" name="datahora" /><br><br>
 
-        <label for="sexo">Mes e Semana:</label><br>
+        <label for="month">Mes e Semana:</label><br>
         <input type="month" name="mes" /><br><br>
         <input type="week" name="semana" /><br><br>
 
-        <label for="sexo">Buscar:</label><br>
+        <label for="search">Buscar:</label><br>
         <input type="search" name="busca" placeholder="Pesquisar" /><br><br>
 
         <label for="telefoe">Telefone:</label><br>
         <input type="tel" name="telefone" placeholder="Insira o seu telefone" /><br><br>
 
-        <label for="sexo">Url:</label><br>
+        <label for="url">Url:</label><br>
         <input type="url" name="url" placeholder="Insira a sua url" /><br><br>
 
         <label for="nome">Nome:</label><br>
@@ -43,6 +43,18 @@
         <label for="idade">Idade:</label><br>
         
         <input type="number" name="idade" min="0" max="110"/><br><br><br>
+
+        <label for="file">Upload:</label><br>
+        <input type="file" accept="image/*" name="arquivo" /><br><br>
+        <input type="file" multiple accept="documents/*" name="arquivo" /><br><br>
+
+        <label for="checkbox">CheckBox:</label><br>
+        <input type="checkbox" name="check1" value="check1" /> Arroz<br>
+        <input type="checkbox" name="check2" value="check2" /> Feijao<br><br>
+
+        <label for="radio">Radio:</label><br>
+        <input type="radio" name="radio1" value="radio1" /> Banana<br>
+        <input type="radio" name="radio2" value="radio2" /> Maça<br><br>
         
         <button type="submit">Enviar</button>
       
