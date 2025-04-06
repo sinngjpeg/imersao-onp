@@ -10,19 +10,29 @@
     <h1>Formulário</h1>
 
     <form action="/cadastro" method="GET">
+        <label for="sexo">Buscar:</label><br>
+        <input type="search" name="busca" placeholder="Pesquisar" /><br><br>
+
+        <label for="telefoe">Telefone:</label><br>
+        <input type="tel" name="telefone" placeholder="Insira o seu telefone" /><br><br>
+
+        <label for="sexo">Url:</label><br>
+        <input type="url" name="url" placeholder="Insira a sua url" /><br><br>
+
         <label for="nome">Nome:</label><br>
         <input type="text" name="nome" placeholder="Insira o seu nome" maxlength="50" /><br>
+        
         <label for="email">Email:</label><br>
-        <input type="email" name="email" placeholder="Insira o seu email" /><br>
-        <br>
+        <input type="email" name="email" placeholder="Insira o seu email" /><br><br>
+        
         <label for="senha">Senha:</label><br>
-        <input type="password" name="senha" placeholder="Insira a sua senha" /><br>
-        <br>
-        <textarea name="artigo"></textarea>
-        <br><br>
+        <input type="password" name="senha" placeholder="Insira a sua senha" /><br><br>
+        
+        <textarea name="artigo"></textarea><br><br>
         <label for="idade">Idade:</label><br>
-        <input type="number" name="idade" min="0" max="110"/><br>
-        <br><br>
+        
+        <input type="number" name="idade" min="0" max="110"/><br><br><br>
+        
         <button type="submit">Enviar</button>
       
     </form>
