@@ -32,17 +32,17 @@
 
         <label for="nome">Nome:</label><br>
         <input type="text" name="nome" placeholder="Insira o seu nome" maxlength="50" /><br><br>
-        
+
         <label for="email">Email:</label><br>
         <input type="email" required name="email" placeholder="Insira o seu email" /><br><br>
-        
+
         <label for="senha">Senha:</label><br>
         <input type="password" required name="senha" placeholder="Insira a sua senha" /><br><br>
-        
+
         <textarea name="artigo"></textarea><br><br>
         <label for="idade">Idade:</label><br>
-        
-        <input type="number" name="idade" min="0" max="110"/><br><br><br>
+
+        <input type="number" name="idade" min="0" max="110" /><br><br><br>
 
         <label for="file">Upload:</label><br>
         <input type="file" accept="image/*" name="arquivo" /><br><br>
@@ -64,9 +64,14 @@
             <option value="opcao1">R$ 1.000 - 1x sem juros</option>
             <option value="opcao2">R$$ 500 - 2x sem juros</option>
             <option value="opcao3">R$ 333,33 - 3x sem juros</option>
-        
+        </select>
+        <br><br>
+
+        <label for="range">Range:</label><br>
+        <input type="range" name="range" min="0" max="100" value="0" /><br><br>
+
         <button type="submit">Enviar</button>
-      
+
     </form>
 </body>
 
