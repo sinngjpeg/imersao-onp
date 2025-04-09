@@ -1,0 +1,12 @@
+.todo {
+    display: flex;
+    flex-direction: column;
+    background: cornflowerblue;
+}
+
+.item {
+    padding: 20px;
+    background: brown;
+    color: white;
+    margin: 10px;
+}
