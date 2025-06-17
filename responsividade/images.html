@@ -7,7 +7,8 @@
     <style>
         responsive {
             width: 100%;
-            height: auto;
+            height: 300px;
+            object-fit: cover;
             max-width: 100px;
             /* Ajuste o tamanho máximo conforme necessário */
             display: block;
@@ -19,7 +20,12 @@
 
 <body>
     <h1> Aula Responsiva de Imagens</h1>
-    <img src="./images/smart.jpg" alt="Imagem responsiva" class="responsive">
+    <img src="./images/smart.jpg" alt="Imagem responsiva" class="responsive" loading="lazy">
+    <picture>
+        <source srcset="./images/smart.jpeg" media="(max-width: 600px)">
+        <source srcset="./images/smart.jpeg" media="(max-width: 1200px)">
+    </picture>
+
 </body>
 
 </html>
